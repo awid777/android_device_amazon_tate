@@ -33,6 +33,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.lab126.touchnoisereject=1 \
     persist.lab126.chargeprotect=1 \
     ro.nf.profile=2 \
+<<<<<<< HEAD
     ro.nf.level=512 \
     omap.audio.mic.main=DMic0L \
     omap.audio.mic.sub=DMic0R \
@@ -42,6 +43,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     sys.usb.pid=0007
 
 # Set dirty regions off
+=======
+    ro.nf.level=512
+
+# Dalvik
+>>>>>>> parent of 3d0a1f3... system.prop cleanup
 PRODUCT_PROPERTY_OVERRIDES += \
     hwui.render_dirty_regions=false
 
