@@ -35,6 +35,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.nf.profile=2 \
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ro.nf.level=512 \
     omap.audio.mic.main=DMic0L \
     omap.audio.mic.sub=DMic0R \
@@ -45,6 +46,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Set dirty regions off
 =======
+=======
+>>>>>>> parent of 3d0a1f3... system.prop cleanup
 =======
 >>>>>>> parent of 3d0a1f3... system.prop cleanup
     ro.nf.level=512
