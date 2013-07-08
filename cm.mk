@@ -15,3 +15,7 @@ PRODUCT_MODEL := Amazon Kindle Fire HD
 PRODUCT_MANUFACTURER := Amazon
 PRODUCT_RELEASE_NAME := KindleFireHD
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.goo.developerid=awidawad \
+    ro.goo.rom=cm_$(TARGET_PRODUCT) \
+    ro.goo.version=$(shell date +%s)
